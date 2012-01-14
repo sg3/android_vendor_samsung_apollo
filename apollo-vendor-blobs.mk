@@ -45,20 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/apollo/proprietary/sensors/akmd2:system/bin/akmd2 \
     vendor/samsung/apollo/proprietary/sensors/sensors.default.so:system/lib/hw/sensors.default.so
 
-# graphics
-PRODUCT_COPY_FILES += \
-    vendor/samsung/apollo/proprietary/graphics/libChunkAlloc.so:system/lib/libChunkAlloc.so \
-    vendor/samsung/apollo/proprietary/graphics/gralloc.GT-I5800.so:system/lib/hw/gralloc.GT-I5800.so \
-    vendor/samsung/apollo/proprietary/graphics/copybit.GT-I5800.so:system/lib/hw/copybit.default.so \
-    vendor/samsung/apollo/proprietary/graphics/librender.so:system/lib/librender.so \
-    vendor/samsung/apollo/proprietary/graphics/libEGL_fimg.so:system/lib/egl/libEGL_fimg.so \
-    vendor/samsung/apollo/proprietary/graphics/libGLESv1_CM_fimg.so:system/lib/egl/libGLESv1_CM_fimg.so \
-    vendor/samsung/apollo/proprietary/graphics/libGLESv2_fimg.so:system/lib/egl/libGLESv2_fimg.so 
-
-# lights
-PRODUCT_COPY_FILES += \
-    vendor/samsung/apollo/proprietary/sensors/lights.s5p6442.so:system/lib/hw/lights.s5p6442.so 
-
 # bluetooth
 PRODUCT_COPY_FILES += \
     vendor/samsung/apollo/proprietary/bluetooth/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd
@@ -69,13 +55,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/apollo/proprietary/bin/playlpm:system/bin/playlpm \
     vendor/samsung/apollo/proprietary/bin/immvibed:system/bin/immvibed
 
-
-# Audio
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/apollo/proprietary/audio/libaudio.so:system/lib/libaudio.so \
-#    vendor/samsung/apollo/proprietary/audio/libaudiopolicy.so:system/lib/libaudiopolicy.so \
-#    vendor/samsung/apollo/proprietary/audio/libsamsungAcousticeq.so:system/lib/libsamsungAcousticeq.so \
-#    vendor/samsung/apollo/proprietary/audio/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
-#    vendor/samsung/apollo/proprietary/audio/libwm8994.so:system/lib/libwm8994.so \
 
 
